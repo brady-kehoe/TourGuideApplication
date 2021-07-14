@@ -11,7 +11,6 @@ import com.google.android.material.tabs.TabLayout;
 
 public class MainActivity extends AppCompatActivity {
 
-
     TabLayout tabLayout;
     ViewPager2 pager2;
     FragmentAdapter adapter;
@@ -19,10 +18,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         tabLayout = findViewById(R.id.tab_layout);
         pager2 = findViewById(R.id.view_pager2);
-
         FragmentManager fm = getSupportFragmentManager();
         adapter = new FragmentAdapter(fm, getLifecycle());
         pager2.setAdapter(adapter);
@@ -54,9 +51,11 @@ public class MainActivity extends AppCompatActivity {
         pager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
             @Override
             public void onPageSelected(int position) {
+
                 tabLayout.selectTab(tabLayout.getTabAt(position));
+
             }
         });
-
+        pager2.setCurrentItem(2);
     }
 }

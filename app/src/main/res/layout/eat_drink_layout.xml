@@ -4,6 +4,7 @@
     android:id="@+id/eat_drink_display"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EatDrinkFragment">
+    android:background="@color/eat_drink_background"
+    tools:context="com.example.android.tourguideapplication.EatDrinkFragment">
 
 </ListView>

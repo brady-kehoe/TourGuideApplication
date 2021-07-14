@@ -4,6 +4,7 @@
     android:id="@+id/attractions_display"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AttractionsFragment">
+    android:background="@color/attractions_background"
+    tools:context="com.example.android.tourguideapplication.AttractionsFragment">
 
 </ListView>

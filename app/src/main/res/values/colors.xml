@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="home_background">#f7f5ab</color>
+    <color name="attractions_background">#9cb8ff</color>
+    <color name="eat_drink_background">#ff8282</color>
+    <color name="events_background">#84c767</color>
+    <color name="accommodations_background">#d190de</color>
+    <color name="colorPrimary">#292929</color>
 </resources>

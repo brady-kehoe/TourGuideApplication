@@ -4,6 +4,7 @@
     android:id="@+id/events_display"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/events_background"
     tools:context="com.example.android.tourguideapplication.EventsFragment">
 
 </ListView>
